@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inventory System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet"> 
+        <link href="css/main.css" rel="stylesheet" />
+    </head>
+    <body class="login">
+        <div class="container">
+            <div class="login-form">
+                <form name="login-form" method="post" action="handlers/login.jsp">
+                    <h1 class="title" style="text-align:center">Log In</h1>
+                <hr />
+                <div class="field">
+                    <label class="label">Email Address</label>
+                    <div class="control">
+                      <input class="input is-rounded" name="email" type="email" placeholder="e.g wayne.smith@email.com">
+                    </div>
+                </div>
+
+            <div class="field">
+              <label class="label">Password</label>
+              <div class="control">
+                <input class="input is-rounded" type="password">
+              </div>
+            </div>
+                
+            <div class="field">
+              <p class="control">
+                  <button class="button is-rounded" type="submit">
+                  Log In
+                </button>
+              </p>
+            </div> 
+                    
+                </form>
+                
+                <hr />
+                <p>
+                    Don't have an account? <a href="register.html"><strong>Register here</strong></a>
+                </p>
+           </div>                    
+        </div>
+    </body>
+</html>
